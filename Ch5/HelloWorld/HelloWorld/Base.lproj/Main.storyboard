@@ -37,12 +37,20 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My First App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sTE-L7-b1Y">
+                                <rect key="frame" x="252" y="40" width="97" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="UlJ-Mc-YLr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="HYT-D9-WQH"/>
                             <constraint firstItem="Q8V-pT-aBk" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="MWw-iR-oqp"/>
+                            <constraint firstItem="sTE-L7-b1Y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OAu-MB-SjX"/>
                             <constraint firstItem="UlJ-Mc-YLr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VoS-Tk-Rfb"/>
+                            <constraint firstItem="sTE-L7-b1Y" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="cRN-eR-GvD"/>
                             <constraint firstAttribute="bottom" secondItem="Q8V-pT-aBk" secondAttribute="bottom" constant="20" symbolic="YES" id="hc8-fu-SYi"/>
                         </constraints>
                     </view>
