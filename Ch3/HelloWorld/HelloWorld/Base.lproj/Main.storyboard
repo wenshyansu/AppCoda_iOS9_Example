@@ -19,7 +19,10 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UlJ-Mc-YLr">
                                 <rect key="frame" x="120" y="269" width="80" height="30"/>
-                                <state key="normal" title="Hello World"/>
+                                <color key="backgroundColor" red="1" green="0.71277484527363166" blue="0.53149280153631184" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Hello World">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="showMessage" destination="BYZ-38-t0r" eventType="touchUpInside" id="ooj-71-odj"/>
                                 </connections>
