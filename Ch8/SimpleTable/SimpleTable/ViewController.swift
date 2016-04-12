@@ -43,8 +43,15 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let cellIdentifier = "Cell";
         let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath);
         
+        // Set Title
         cell.textLabel?.text = restaurantNames[indexPath.row];
-        cell.imageView?.image = UIImage(named: "restaurant");
+        
+        // Set Image
+        let imgString = restaurantNames[indexPath.row];
+        let imgName = imgString.stringByReplacingOccurrencesOfString(" ", withString: "");
+        
+        cell.imageView?.image = UIImage(named: imgName.lowercaseString);
+        
         return cell;
     }
     
