@@ -61,3 +61,6 @@ Carthage/Build
 
 fastlane/report.xml
 fastlane/screenshots
+
+# Custom ignore 
+.DS_Store
